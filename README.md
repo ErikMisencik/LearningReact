@@ -1,12 +1,17 @@
-# React + Vite
+# React Frontend Learning Repo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is a personal learning space dedicated to improving my frontend development skills using **React** and **Vite**. Coming from a backend-heavy background with **Java**, this project serves as a playground to get hands-on experience with modern frontend technologies, UI development, and state management in React.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Explore React fundamentals and ecosystem
+- Understand component-based architecture
+- Practice frontend best practices and patterns
+- Complement backend skills with full-stack capabilities
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Core library for building user interfaces
+- **Vite** – Fast build tool and development server for React apps
+
+Feel free to explore the code, experiments, and small demos throughout the project as I progressively deepen my understanding of the frontend side of web development.
