@@ -1,0 +1,76 @@
+/* Reset + full-page centering */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #614d4d;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+/* Optional: Wrapper for padding */
+.app-wrapper {
+  text-align: center;
+  max-width: 1200px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Card container styles */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Profile card styles */
+.profile-card {
+  background-color: rgb(243, 233, 233);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.2s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-card h2 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.profile-card h3 {
+  margin: 0.5rem 0;
+  font-weight: normal;
+  color: #555;
+}
+
+.profile-card ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin-top: 1rem;
+}
+
+.profile-card li {
+  margin: 0.25rem 0;
+  color: #666;
+}
+
+.greetings {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}

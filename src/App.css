@@ -1,0 +1,17 @@
+/* Reset + full-page centering */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #614d4d;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
