@@ -1,15 +1,15 @@
 
 import './App.css'
-import { useEffect, useState } from 'react';
-import ParentComponent from './MouseTrackerProject/ParentComponent';
+import React, { useEffect, useState } from 'react';
+
 
 
 function App() {
 
   return (
-      <div>
-        <ParentComponent />
-      </div>
+    <div>
+     
+    </div>
   );
 }
 

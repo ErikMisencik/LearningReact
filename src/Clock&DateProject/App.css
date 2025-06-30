@@ -1,0 +1,56 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1919; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Wrapper container */
+.tracker-wrapper {
+  background-color: #1e1e1e; /* Slightly lighter dark */
+  border: 2px solid #ff7f00; /* Orange border */
+  border-radius: 12px;
+  padding: 2.5rem 3rem;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 127, 0, 0.4);
+  user-select: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.tracker-wrapper:hover {
+  box-shadow: 0 0 25px rgba(255, 127, 0, 0.7);
+}
+
+/* Heading */
+.tracker-wrapper h1 {
+  margin-bottom: rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff7f00; /* Orange text for heading */
+  letter-spacing: 1px;
+}
+
+/* Paragraphs */
+.tracker-wrapper p {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  color: #e0e0e0;
+}
+
+/* Optional: subtle underline for time and date */
+.tracker-wrapper p:first-of-type {
+  border-bottom: 1.5px solid #ff7f00;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
