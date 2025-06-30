@@ -5,12 +5,7 @@ import ParentComponent from './MouseTrackerProject/ParentComponent';
 
 
 function App() {
-
-  return (
-      <div>
-        <ParentComponent />
-      </div>
-  );
+  return <ParentComponent />;
 }
 
 

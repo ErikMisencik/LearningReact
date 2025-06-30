@@ -11,15 +11,11 @@ function ParentComponent() {
 
     return (
         <>
-            <div className="tracker-wrapper">
-                <div>
+            <div className="center-container">
                     {showComponent && <MouseTracker />}
-                </div>
-                <div>
                     <button onClick={tooggleComponent}>
                         {showComponent ? 'Hide Tracker' : 'Show Tracker'}
                     </button>
-                </div>
             </div>
         </>
 
