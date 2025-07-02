@@ -1,0 +1,64 @@
+/* App.css */
+
+/* Base styling for dark mode */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container */
+div {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Heading */
+h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+/* Subheading */
+p {
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  color: #cccccc;
+}
+
+/* Posts wrapper */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Individual post container */
+ul > div {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+ul > div p:first-child {
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+/* Body */
+ul > div p:nth-child(2) {
+  color: #bbbbbb;
+}
+
+/* Loading and error messages */
+div:has(> h2):empty,
+div:has(> h2) + div {
+  color: #ff6b6b;
+}
